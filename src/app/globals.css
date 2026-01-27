@@ -10,8 +10,8 @@ body {
 
 
 /* !---------- common color  */
- .text_primay_color {
- color: linear-gradient(87.71deg, rgba(245, 189, 77, 1) 0.362%,rgba(248, 146, 34, 1) 99.88%);
+ .text_primary_color {
+ @apply  bg-gradient-to-r from-[#f5bd4d] to-[#f89222] bg-clip-text text-transparent
 
 }
  .text_secondary_color {
@@ -20,7 +20,7 @@ color: rgba(255, 255, 255, 1);
 }
 
 .bg_primary_color {
-  background: rgba(18, 20, 20, 1);
+@apply bg-[#171b1A]
   
  }
 

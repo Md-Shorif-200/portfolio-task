@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
 
         <section className="max-w-[1320px] mx-auto flex  ">
 
-          <aside  className="w-[508px] ">
+          <aside  className="w-[508px] min-h-screen   ">
               <Sidebar/>
           </aside>
 

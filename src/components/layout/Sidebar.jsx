@@ -1,16 +1,89 @@
-import React from 'react'
+import Image from "next/image";
+import React from "react";
+
+const profile_img = '/Mask group.png'
+import { FaFacebookF,FaLinkedinIn ,FaPinterestP,FaInstagram,FaTwitter } from "react-icons/fa";
+
+
 
 export default function Sidebar() {
   return (
-    <section className='w-full'>
-          <header className=' w-full h-10 bg-[rgba(18,20,20,1)]'>
+    <section className="w-full  bg_primary_color">
+          {/* header */}
+      <header className=" w-full  bg-[rgba(18,20,20,1)] py-5">
+        <h1 className="text-[28px] text_secondary_color font-bold">
+          Daryl <span className="text_primary_color">Smith</span>{" "}
+        </h1>
+        <p className="text-[rgba(194,194,194,1)] text-[16px] font-normal">
+          UI/UX designer
+        </p>
+      </header>
 
-          </header>
 
-              <main>
 
-              </main>
+      <main className="w-full h-150 flex   ">
+            {/* navigation icon */}
+        <div className="navigation w-[20%]  flex flex-col justify-center items-center gap-10 ">
+          <Image
+            src="/navigation-logo/home.svg"
+            width={32}
+            height={32}
+            alt="navigation-home-icon"
+          />
+          <Image
+            src="/navigation-logo/profile-about.svg"
+            width={32}
+            height={32}
+            alt="navigation-profile-about-icon"
+          />
+          <Image
+            src="/navigation-logo/portfolio.svg"
+            width={32}
+            height={32}
+            alt="navigation-portfolio-icon"
+          />
+          <Image
+            src="/navigation-logo/blog.svg"
+            width={32}
+            height={32}
+            alt="navigation-blog-icon"
+          />
+          <Image
+            src="/navigation-logo/contact.svg"
+            width={32}
+            height={32}
+            alt="navigation-contact-icon"
+          />
+        </div>
+
+            {/* profile img and social icon */}
+        <div className="profile w-[80%] ">
+
+            
+            <div className="profile_img relative w-full h-125 bg-[#000000] ">
+                      <Image src={profile_img} fill alt="profile-image" />
+            </div>
+
+              <div className="social_icon w-full  bg-[#000000] flex justify-center items-center gap-8 py-4">
+                   <div className="w-8 h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center " >
+                       <FaFacebookF className="text-[16px] text-[#C5C5C5]" />
+                   </div>
+                   <div className="w-8 h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center " >
+                       <FaLinkedinIn className="text-[16px] text-[#C5C5C5]" />
+                   </div>
+                   <div className="w-8 h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center " >
+                       <FaPinterestP className="text-[16px] text-[#C5C5C5]" />
+                   </div>
+                   <div className="w-8 h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center " >
+                       <FaInstagram className="text-[16px] text-[#C5C5C5]" />
+                   </div>
+                   <div className="w-8 h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center " >
+                       <FaTwitter className="text-[16px] text-[#C5C5C5]" />
+                   </div>
+              
+              </div>
+        </div>
+      </main>
     </section>
-
-  )
+  );
 }
