@@ -64,7 +64,7 @@ export default function Sidebar() {
                       <Image src={profile_img} fill alt="profile-image" />
             </div>
 
-              <div className="social_icon w-full  bg-[#000000] flex justify-center items-center gap-8 py-4">
+              <div className="social_icons_box w-full   flex justify-center items-center gap-8 py-4">
                    <div className="w-8 h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center " >
                        <FaFacebookF className="text-[16px] text-[#C5C5C5]" />
                    </div>

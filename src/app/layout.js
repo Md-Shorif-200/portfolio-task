@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
               <Sidebar/>
           </aside>
 
-           <main className="">
+           <main className="w-[812px] min-h-screen">
         {children}
 
            </main>

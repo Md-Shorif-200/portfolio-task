@@ -1,6 +1,9 @@
+import Banner from "@/components/sections/Banner";
 
-export default function page() {
+export default function HomePage() {
   return (
-    <div>page</div>
+    <div>
+        <Banner/>
+    </div>
   )
 }

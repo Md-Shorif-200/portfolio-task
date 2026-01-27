@@ -10,6 +10,7 @@ body {
 
 
 /* !---------- common color  */
+
  .text_primary_color {
  @apply  bg-gradient-to-r from-[#f5bd4d] to-[#f89222] bg-clip-text text-transparent
 
@@ -24,6 +25,20 @@ color: rgba(255, 255, 255, 1);
   
  }
 
+
+ /* !----------- */
+ .social_icons_box {
+  box-shadow: 0px -10px 25px 0px rgba(255, 255, 255, 0.09);
+background: rgba(0, 0, 0, 1);
+ }
+
+ .section_sub_title_bg {
+  background: linear-gradient(87.71deg, rgba(245, 189, 77, 1) 0.362%,rgba(248, 146, 34, 1) 99.88%);
+ }
+
+ .secondary_btn {
+   @apply border border-[#F7A030]  px-5 py-3  cursor-pointer
+ }
 
 /* @media (prefers-color-scheme: dark) {
   :root {
