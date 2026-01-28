@@ -7,10 +7,10 @@ const Resume_Shape = '/Resume_Shape (1).png'
 
 export default function Education() {
   return (
-    <section className="mb-14">
+    <section className="mb-10 lg:mb-14">
       {/* section title  */}
     
-      <div className="my-8">
+      <div className=" mt-10 lg:mt-0 mb-6  lg:my-8">
         <SectionSubtitle Icon={PiGraduationCapBold} label="Education" />
       </div>
 

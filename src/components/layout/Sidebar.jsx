@@ -15,7 +15,7 @@ import {
 
 export default function Sidebar() {
   return (
-    <section className="w-full h-180  bg_primary_color">
+    <section className="w-full h-140 sm:h-160 md:h-170 lg:h-180  bg_primary_color">
       {/* header */}
       <header className=" w-full flex items-center  bg-[rgba(18,20,20,1)] py-5">
 
@@ -39,53 +39,58 @@ export default function Sidebar() {
             width={32}
             height={32}
             alt="navigation-home-icon"
+           className="w-6 h-6 lg:w-8 lg:h-8"
           />
           <Image
             src="/navigation-logo/profile-about.svg"
             width={32}
             height={32}
             alt="navigation-profile-about-icon"
+           className="w-6 h-6 lg:w-8 lg:h-8"
           />
           <Image
             src="/navigation-logo/portfolio.svg"
             width={32}
             height={32}
             alt="navigation-portfolio-icon"
+           className="w-6 h-6 lg:w-8 lg:h-8"
           />
           <Image
             src="/navigation-logo/blog.svg"
             width={32}
             height={32}
             alt="navigation-blog-icon"
+           className="w-6 h-6 lg:w-8 lg:h-8"
           />
           <Image
             src="/navigation-logo/contact.svg"
             width={32}
             height={32}
             alt="navigation-contact-icon"
+           className="w-6 h-6 lg:w-8 lg:h-8"
           />
         </div>
 
         {/* profile img and social icon */}
         <div className="profile w-[80%] ">
-          <div className="profile_img relative w-full h-125 bg-[#000000] ">
+          <div className="profile_img relative w-full h-90 sm:h-115 lg:h-125 bg-[#000000] ">
             <Image src={profile_img} fill alt="profile-image" />
           </div>
 
-          <div className="social_icons_box w-full   flex justify-center items-center gap-8 py-4">
-            <div className="w-8 h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center ">
+          <div className="social_icons_box w-full   flex justify-center items-center gap-4 lg:gap-8 py-4 px-2 lg:px-0">
+            <div className="w-6 lg:w-8 h-6 lg:h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center ">
               <FaFacebookF className="text-[16px] text-[#C5C5C5]" />
             </div>
-            <div className="w-8 h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center ">
+            <div className="w-6 lg:w-8 h-6 lg:h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center ">
               <FaLinkedinIn className="text-[16px] text-[#C5C5C5]" />
             </div>
-            <div className="w-8 h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center ">
+            <div className="w-6 lg:w-8 h-6 lg:h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center ">
               <FaPinterestP className="text-[16px] text-[#C5C5C5]" />
             </div>
-            <div className="w-8 h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center ">
+            <div className="w-6 lg:w-8 h-6 lg:h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center ">
               <FaInstagram className="text-[16px] text-[#C5C5C5]" />
             </div>
-            <div className="w-8 h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center ">
+            <div className="w-6 lg:w-8 h-6 lg:h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center ">
               <FaTwitter className="text-[16px] text-[#C5C5C5]" />
             </div>
           </div>

@@ -6,7 +6,7 @@ import Blog from "@/components/sections/Blog";
 
 export default function HomePage() {
   return (
-    <section className='w-full  bg_primary_color'>
+    <section className='lg:w-full'>
         <Banner/>
          <Resume/>
           <Skills/>

@@ -13,13 +13,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="antialiased">
 
-        <section className="max-w-[1320px] mx-auto flex  ">
+        <section className="max-w-[1320px] mx-auto md:flex bg-[#171b1A]  ">
 
-          <aside  className="w-[508px] min-h-screen   ">
+          <aside  className="w-full md:w-[35%] lg:w-[38.5%]  ">
               <Sidebar/>
           </aside>
 
-           <main className="w-[812px] min-h-screen">
+           <main className="w-full md:w-[65%] lg:w-[61.5%] min-h-screen">
         {children}
 
            </main>

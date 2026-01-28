@@ -112,10 +112,10 @@ export default function Blog() {
   );
 
   return (
-    <section className="w-full h-full px-10 pt-20  ">
-    <div className="w-[646px] h-full">
+    <section className="w-full h-full px-6 lg:px-10 pt-10 lg:pt-20  ">
+    <div className="xl:w-[646px] h-full">
             <h2 className="section_title">Blog</h2>
-      <div className="flex flex-col md:flex-row gap-4">
+      <div className="flex flex-col md:flex-row gap-3 lg:gap-4">
         
         {/* Column 1 */}
         <div className="flex-1">

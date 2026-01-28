@@ -18,28 +18,28 @@ import { RxDownload } from "react-icons/rx";
 
 export default function Banner() {
   return (
-    <section className="w-full h-180">
-      <header className="w-full h-26.5 flex justify-between items-center  bg-[rgba(18,20,20,1)] px-10  border-l border-[#353535]">
+    <section className=" banner_section w-full  sm:h-140 h-180">
+      <header className="w-full h-26.5 flex justify-between items-center  bg-[rgba(18,20,20,1)] px-6 lg:px-10  border-l border-[#353535]">
         <SectionSubtitle Icon={TbHome} label="Home" />
 
-        <button className="secondary_btn capitalize text_primary_color text-[16px] font-bold rounded-[50px] ">
+        <button className="secondary_btn capitalize text_primary_color text-[14px] lg:text-[16px] font-bold rounded-[50px] hover:bg-[#f1a43a] ">
           tack to me
         </button>
       </header>
 
       {/* --- banner content--- */}
-      <main className=" w-full pl-10 py-10  flex  justify-between relative">
+      <main className=" w-full pl-6 lg:pl-10 py-10  flex  justify-between relative">
         <div className="w-[80%]">
           <span className="text-[16px] text_primary_color font-bold leading-5.25 uppercase ">
             Introduction
           </span>
 
-          <h2 className="text-[48px] font-bold text_secondary_color my-2 capitalize ">
-            I'm a Creative Developer & <br />
+          <h2 className=" text-[24px] md:text-[32px] lg:text-[40px] xl:text-[48px] font-bold text_secondary_color my-2 capitalize ">
+            I&apos;m  a Creative Developer & <br />
             <span className="text-white">UI/UX Design Expert</span>
           </h2>
 
-          <div className="flex gap-3 text_secondary_color text-[16px] mt-2 mb-6">
+          <div className="flex gap-3 text_secondary_color text-[14px] lg:text-[16px] mt-2 mb-6">
             <span>24 years</span>
             <span>/</span>
             <span>Robert Smith</span>
@@ -47,9 +47,9 @@ export default function Banner() {
             <span>UK London</span>
           </div>
 
-          <p className="text-[16px] font-light leading-[23px] text-[rgba(198,198,198,1)] mb-10 text-justify ">
+          <p className="text-[14px] lg:text-[16px] font-light lg:leading-[23px] text-[rgba(198,198,198,1)] mb-10 text-justify ">
             Prolific, full stack web developer with a passion for metrics and
-            beating former "best-yets. Prototyped 25 new product features per
+            beating former best-yets. Prototyped 25 new product features per
             year for Flexor, Inc. Decreased rework by 22% and costs by 15%.
             Consistently receive high user experience scores for all web
             development projects, including a 55% increase for Flexor, Inc.
@@ -58,18 +58,18 @@ export default function Banner() {
           </p>
 
           {/* Download CV Button */}
-          <div>
-            <button className="primary_btn">
-              <span className="text-[16px]   font-bold text_secondary_color ">
+  
+            <button className="primary_btn mb-6 lg:mb-0">
+              <span className="text-[14px] lg:text-[16px]   font-bold text_secondary_color ">
                 Download CV
               </span>
-              <RxDownload className="text-[24px] text_secondary_color font-bold  " />
+              <RxDownload className=" text-[20px] lg:text-[24px] text_secondary_color font-bold  " />
             </button>
-          </div>
+       
         </div>
 
         {/*  Language  */}
-        <div className="w-[20%] absolute right-0 bottom-4  flex flex-col gap-4 items-center">
+        <div className="w-[20%] absolute right-0 lg:bottom-4  flex flex-col gap-4 items-center">
           <span className="[writing-mode:vertical-lr] text-[rgba(165,165,165,1)] text-[14px] lowercase  mb-4">
             © design by themefisher developed by gethugothemes
           </span>

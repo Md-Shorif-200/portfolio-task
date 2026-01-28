@@ -12,16 +12,16 @@ const  img_7 = '/portfolio-img/img-7.webp'
 
 export default function Portfolio() {
   return (
-    <section className=" w-full h-full px-10 pt-20">
-      <div className="w-[646px] h-full">
+    <section className=" w-full h-full px-6 lg:px-10  pt-10 lg:pt-20">
+      <div className="xl:w-[646px] h-full">
   
         
         {/* Title */}
         <h2 className="section_title mt-8 mb-5">Portfolio</h2>
 
         {/*  Tabs */}
-        <div className=" w-full  h-[60px]  mb-5 portfolio_tab flex justify-start  items-center gap-3 px-2">
-          <button className="px-3 py-2 text-[16px] font-normal border-b-2 text-[#f1a43a] border-[#f1a43a]transition-all cursor-pointer ">All</button>
+        <div className=" w-full  xl:h-[60px]  mb-5 portfolio_tab flex flex-wrap justify-start  items-center gap-1 lg:gap-3 px-1 lg:px-2">
+          <button className=" px-2 lg:px-3 py-1 lg:py-2 text-[16px] font-normal border-b-2 text-[#f1a43a] border-[#f1a43a]transition-all cursor-pointer ">All</button>
           <button className="portfolio_tab_btn ">Graphic Design</button>
           <button className="portfolio_tab_btn ">Mobile App</button>
           <button className="portfolio_tab_btn ">Photography</button>
@@ -29,7 +29,7 @@ export default function Portfolio() {
         </div>
 
    
-        <div className=" w-full  grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className=" w-full  grid grid-cols-1 sm:grid-cols-2 gap-y-3 sm:gap-4 lg:gap-6">
 
               <div className='design_project_1'> 
                    {/* Item 1 */}
