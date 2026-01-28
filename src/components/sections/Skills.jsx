@@ -8,7 +8,7 @@ export default function SkillsSection() {
   ];
 
   return (
-    <section className=" w-full h-full px-10 pt-20">
+    <section className=" w-full h-full px-10 pt-20-full h-full px-10 pt-20">
       <div className="w-[646px] h-full">
         <h2 className="section_title">Skills</h2>
         
