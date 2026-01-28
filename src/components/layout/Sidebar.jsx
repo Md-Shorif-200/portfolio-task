@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const profile_img = "/Mask group.png";
+const profile_img = "/profile-img.png";
 import {
   FaFacebookF,
   FaLinkedinIn,
@@ -10,17 +10,25 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 
+
+
+
 export default function Sidebar() {
   return (
     <section className="w-full h-180  bg_primary_color">
       {/* header */}
-      <header className=" w-full  bg-[rgba(18,20,20,1)] py-5">
-        <h1 className="text-[28px] text_secondary_color font-bold">
+      <header className=" w-full flex items-center  bg-[rgba(18,20,20,1)] py-5">
+
+              <div className = 'w-[20%]' ></div>
+              <div className = 'w-[80%]' >
+                    <h1 className="text-[28px] text_secondary_color font-bold">
           Daryl <span className="text_primary_color">Smith</span>{" "}
         </h1>
         <p className="text-[rgba(194,194,194,1)] text-[16px] font-normal">
           UI/UX designer
         </p>
+              </div>
+    
       </header>
 
       <main className="w-full  flex   ">
