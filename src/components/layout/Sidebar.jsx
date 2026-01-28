@@ -1,15 +1,19 @@
 import Image from "next/image";
 import React from "react";
 
-const profile_img = '/Mask group.png'
-import { FaFacebookF,FaLinkedinIn ,FaPinterestP,FaInstagram,FaTwitter } from "react-icons/fa";
-
-
+const profile_img = "/Mask group.png";
+import {
+  FaFacebookF,
+  FaLinkedinIn,
+  FaPinterestP,
+  FaInstagram,
+  FaTwitter,
+} from "react-icons/fa";
 
 export default function Sidebar() {
   return (
-    <section className="w-full  bg_primary_color">
-          {/* header */}
+    <section className="w-full h-180  bg_primary_color">
+      {/* header */}
       <header className=" w-full  bg-[rgba(18,20,20,1)] py-5">
         <h1 className="text-[28px] text_secondary_color font-bold">
           Daryl <span className="text_primary_color">Smith</span>{" "}
@@ -19,10 +23,8 @@ export default function Sidebar() {
         </p>
       </header>
 
-
-
-      <main className="w-full h-150 flex   ">
-            {/* navigation icon */}
+      <main className="w-full  flex   ">
+        {/* navigation icon */}
         <div className="navigation w-[20%]  flex flex-col justify-center items-center gap-10 ">
           <Image
             src="/navigation-logo/home.svg"
@@ -56,32 +58,29 @@ export default function Sidebar() {
           />
         </div>
 
-            {/* profile img and social icon */}
+        {/* profile img and social icon */}
         <div className="profile w-[80%] ">
+          <div className="profile_img relative w-full h-125 bg-[#000000] ">
+            <Image src={profile_img} fill alt="profile-image" />
+          </div>
 
-            
-            <div className="profile_img relative w-full h-125 bg-[#000000] ">
-                      <Image src={profile_img} fill alt="profile-image" />
+          <div className="social_icons_box w-full   flex justify-center items-center gap-8 py-4">
+            <div className="w-8 h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center ">
+              <FaFacebookF className="text-[16px] text-[#C5C5C5]" />
             </div>
-
-              <div className="social_icons_box w-full   flex justify-center items-center gap-8 py-4">
-                   <div className="w-8 h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center " >
-                       <FaFacebookF className="text-[16px] text-[#C5C5C5]" />
-                   </div>
-                   <div className="w-8 h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center " >
-                       <FaLinkedinIn className="text-[16px] text-[#C5C5C5]" />
-                   </div>
-                   <div className="w-8 h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center " >
-                       <FaPinterestP className="text-[16px] text-[#C5C5C5]" />
-                   </div>
-                   <div className="w-8 h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center " >
-                       <FaInstagram className="text-[16px] text-[#C5C5C5]" />
-                   </div>
-                   <div className="w-8 h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center " >
-                       <FaTwitter className="text-[16px] text-[#C5C5C5]" />
-                   </div>
-              
-              </div>
+            <div className="w-8 h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center ">
+              <FaLinkedinIn className="text-[16px] text-[#C5C5C5]" />
+            </div>
+            <div className="w-8 h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center ">
+              <FaPinterestP className="text-[16px] text-[#C5C5C5]" />
+            </div>
+            <div className="w-8 h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center ">
+              <FaInstagram className="text-[16px] text-[#C5C5C5]" />
+            </div>
+            <div className="w-8 h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center ">
+              <FaTwitter className="text-[16px] text-[#C5C5C5]" />
+            </div>
+          </div>
         </div>
       </main>
     </section>

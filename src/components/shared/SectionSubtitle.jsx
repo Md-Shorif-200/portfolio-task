@@ -7,7 +7,7 @@ export const SectionSubtitle = ({ Icon, label }) => {
      
         <Icon size={20} />
       </div>
-      <span className={`text-white font-medium`}>
+      <span className={`text-white font-medium text-[24px]`}>
         {label}
       </span>
     </div>

@@ -2,8 +2,8 @@ import Banner from "@/components/sections/Banner";
 
 export default function HomePage() {
   return (
-    <div>
+    <section className='w-full  bg_primary_color'>
         <Banner/>
-    </div>
+    </section>
   )
 }
