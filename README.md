@@ -1,4 +1,4 @@
-# Personal Portfolio Website
+# Portfolio Website
 
 This is a professional personal portfolio website built with Next.js and Tailwind CSS. It is designed to showcase work experience, projects, and blog posts in a clean and modern layout.
 
