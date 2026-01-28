@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function Container() {
+export default function Container({children}) {
   return (
-    <div>Container</div>
+    <section className='w-[646px] pl-10'>
+       {children}
+    </section>
   )
 }

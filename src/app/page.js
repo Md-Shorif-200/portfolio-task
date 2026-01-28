@@ -1,4 +1,5 @@
 import Banner from "@/components/sections/Banner";
+import Portfolio from "@/components/sections/Portfolio";
 import Resume from "@/components/sections/Resume/Resume";
 import Skills from "@/components/sections/Skills";
 
@@ -8,6 +9,7 @@ export default function HomePage() {
         <Banner/>
          <Resume/>
           <Skills/>
+           <Portfolio/>
     </section>
   )
 }
