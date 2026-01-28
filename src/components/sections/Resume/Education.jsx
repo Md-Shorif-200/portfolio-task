@@ -16,7 +16,7 @@ export default function Education() {
 
       {/* Resume Education  Content */}
 
-      <main class="  relative ">
+      <main className="  relative ">
      
        {/* resume shape */}
   <div className="absolute left-0 top-0 z-0">
@@ -30,19 +30,19 @@ export default function Education() {
     </div>
   </div>
         
-          <div class=" ml-6">
-            <div class="mb-10 ">
-              <span class="resume_badge">2016-2020</span>
+          <div className=" ml-6">
+            <div className="mb-10 ">
+              <span className="resume_badge">2016-2020</span>
 
-              <div class="resume_card mb-10">
-                <h3 class="text-[18px] font-bold   text_primary_color capitalize ">
+              <div className="resume_card mb-10">
+                <h3 className="text-[18px] font-bold   text_primary_color capitalize ">
                   Harvard University
                 </h3>
-                <p class="text-[12px] text-[rgba(143,143,143,1)] font-light  mt-2 mb-3 ">
+                <p className="text-[12px] text-[rgba(143,143,143,1)] font-light  mt-2 mb-3 ">
                   B.A. and M.S., Computer Science
                 </p>
-                <hr class="border-gray-800 mb-4" />
-                <p class="text-[16px] font-normal text_secondary_color  ">
+                <hr className="border-gray-800 mb-4" />
+                <p className="text-[16px] font-normal text_secondary_color  ">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
                   aut commodi earum eligendi ipsum, laborum maiores mollitia,
                   optio quam quis rerum totam voluptas.
@@ -50,18 +50,18 @@ export default function Education() {
               </div>
             </div>
 
-            <div class="mb-10 ">
-              <span class="resume_badge">2014-2016</span>
+            <div className="mb-10 ">
+              <span className="resume_badge">2014-2016</span>
 
-              <div class="resume_card mb-10">
-                <h3 class="text-[18px] font-bold   text_primary_color capitalize ">
+              <div className="resume_card mb-10">
+                <h3 className="text-[18px] font-bold   text_primary_color capitalize ">
                   Helwan University
                 </h3>
-                <p class="text-[12px] text-[rgba(143,143,143,1)] font-light  mt-2 mb-3 ">
+                <p className="text-[12px] text-[rgba(143,143,143,1)] font-light  mt-2 mb-3 ">
                   Bachelor Degree{" "}
                 </p>
-                <hr class="border-gray-800 mb-4" />
-                <p class="text-[16px] font-normal text_secondary_color  ">
+                <hr className="border-gray-800 mb-4" />
+                <p className="text-[16px] font-normal text_secondary_color  ">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
                   aut commodi earum eligendi ipsum, laborum maiores mollitia,
                   optio quam quis rerum totam voluptas.

@@ -78,21 +78,54 @@ export default function Sidebar() {
           </div>
 
           <div className="social_icons_box w-full   flex justify-center items-center gap-4 lg:gap-8 py-4 px-2 lg:px-0">
+         
             <div className="w-6 lg:w-8 h-6 lg:h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center ">
-              <FaFacebookF className="text-[16px] text-[#C5C5C5]" />
+                <Image
+            src="/social-icon/fa6-brands_facebook-f.svg"
+            width={16}
+            height={16}
+            alt="navigation-fa6-brands_facebook-f-icon"
+           className="w-3 h-3 lg:w-4 lg:h-4"
+          />
             </div>
             <div className="w-6 lg:w-8 h-6 lg:h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center ">
-              <FaLinkedinIn className="text-[16px] text-[#C5C5C5]" />
+               <Image
+            src="/social-icon/cib_linkedin-in.svg"
+            width={16}
+            height={16}
+            alt="navigation-cib_linkedin-in-icon"
+           className="w-3 h-3 lg:w-4 lg:h-4"
+          />
             </div>
             <div className="w-6 lg:w-8 h-6 lg:h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center ">
-              <FaPinterestP className="text-[16px] text-[#C5C5C5]" />
+              <Image
+            src="/social-icon/pinterest-p 1.svg"
+            width={16}
+            height={16}
+            alt="navigation-pinterest-p 1-icon"
+           className="w-3 h-3 lg:w-4 lg:h-4"
+          />
             </div>
             <div className="w-6 lg:w-8 h-6 lg:h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center ">
-              <FaInstagram className="text-[16px] text-[#C5C5C5]" />
+              <Image
+            src="/social-icon/akar-icons_instagram-fill.svg"
+            width={16}
+            height={16}
+            alt="navigation-akar-icons_instagram-fill-icon"
+           className="w-3 h-3 lg:w-4 lg:h-4"
+          />
             </div>
-            <div className="w-6 lg:w-8 h-6 lg:h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center ">
-              <FaTwitter className="text-[16px] text-[#C5C5C5]" />
+
+               <div className="w-6 lg:w-8 h-6 lg:h-8 bg-[rgba(18,20,20,1)] rounded-full flex justify-center items-center ">
+               <Image
+            src="/social-icon/akar-icons_twitter-fill.svg"
+            width={16}
+            height={16}
+            alt="navigation-akar-icons_twitter-fill-icon"
+           className="w-3 h-3 lg:w-4 lg:h-4"
+          />
             </div>
+            
           </div>
         </div>
       </main>
