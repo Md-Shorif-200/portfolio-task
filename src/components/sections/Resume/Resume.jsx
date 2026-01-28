@@ -6,8 +6,11 @@ export default function Resume() {
   return (
     <div className='px-10 w-full h-full'>
         <h1 className="section_title"> Resume</h1>
+               <div className='w-[646px] h-full'>
+
           <Education/>
            <WorkHistory/>
+               </div>
     </div>
   )
 }

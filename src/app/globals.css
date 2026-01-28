@@ -62,7 +62,7 @@ font-weight: 700;
 
 
  .resume_badge{
-  @apply w-[87px] h-[26px] text-[14px] font-bold flex justify-center items-center mb-3 border ;
+  @apply w-[87px] h-[26px] text-[14px] font-bold flex justify-center items-center mb-3  ;
 border: 1px solid rgba(255, 255, 255, 0.2);
 color: rgba(255, 255, 255, 1);
 
@@ -72,12 +72,27 @@ border-radius: 4px;
 
  .resume_card {
 
-width: 646px;
+
 padding : 20px;
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 8px;
 background: rgba(18, 20, 20, 1); 
  }
+
+
+ .skill_name {
+  color: rgba(227, 227, 227, 1);
+font-size: 24px;
+font-weight: 500;
+
+
+ }
+
+ .skills_progressbar_bg {
+  border-radius: 25px;
+background: linear-gradient(87.71deg, rgba(245, 189, 77, 0.3) 0.362%,rgba(248, 146, 34, 0.3) 99.88%);
+ }
+
 /* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;

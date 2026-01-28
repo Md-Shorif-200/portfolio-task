@@ -49,10 +49,10 @@ export default function Education() {
               </div>
             </div>
 
-            <div class="mb-10 ">
+            <div class=" ">
               <span class="resume_badge">2012-2016</span>
 
-              <div class="resume_card mb-10">
+              <div class="resume_card">
                 <h3 class="text-[18px] font-bold   text_primary_color capitalize ">
                   Junior Web Designer
                 </h3>
